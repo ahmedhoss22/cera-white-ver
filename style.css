@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+main img{
+    height: 80vh; /* Set the desired height */
+    width: 100%; /* Allow the image to adjust to the container's width */
+    object-fit: contain; /* Contain the image within the specified dimensions */
+    object-position: center; /* Center the image within its container */
+}
